@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="cat.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">	
+</head>
+<body>
+		<h1>Say hello to Joe's cat!</h1>
+		<a href="cat.html"><button>Go back</button></a>
+
+
+	<div class="row">
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<button type="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"><img class="thumb-pic"  src="https://lh4.ggpht.com/8hrMOC91GYynhmu2Rci8MrrnFDZaF1KJkBCuAGrDMxZCEGeRro9MPxNIIYKI35v2Nw"></button>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img class="thumb-pic" src="https://images.unsplash.com/photo-1417028441456-f283323fe2d6">
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img class="thumb-pic" src="https://images.unsplash.com/photo-1442291928580-fb5d0856a8f1">
+			</div>	
+		</div>
+	</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Meow!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<img src="https://lh4.ggpht.com/8hrMOC91GYynhmu2Rci8MrrnFDZaF1KJkBCuAGrDMxZCEGeRro9MPxNIIYKI35v2Nw">
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

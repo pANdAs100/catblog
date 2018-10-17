@@ -1,0 +1,45 @@
+body {
+	text-align:center;
+	background: #5c5c5c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #E7E9BB, #5c5c5c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #E7E9BB, #5c5c5c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {	
+	margin-top: 1%;
+	font-weight: 200;
+	color: #eaeaea;
+	background-color: #3a3a3a;
+}
+
+.d-block {
+	height: 500px;
+}
+
+.w-100 {
+	width: 775px!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+.carousel {
+	width: 1090px;
+	margin-left: auto!important;
+	margin-right: auto!important;
+	background-color:#1e1e1e;
+}
+
+a {
+	color: #1e1e1e;
+}
+
+a:hover {
+	color: #1e1e1e;
+	text-decoration: none;
+}
+
+hr{
+	width:400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
